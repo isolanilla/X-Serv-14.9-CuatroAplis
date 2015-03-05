@@ -6,7 +6,7 @@ import aleat
 import suma
 
 
-class hola():
+class hola(webapp.app):
 
     def parse(self, request, rest):
         return None
@@ -16,7 +16,7 @@ class hola():
         return ("200 OK", "<html><body><h1>HOLA</body></html>")
 
 
-class adios():
+class adios(webapp.app):
 
     def parse(self, request, rest):
         return None
